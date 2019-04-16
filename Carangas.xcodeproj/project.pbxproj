@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		BCDDEB7D224A5709005720A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDDEB7C224A5709005720A0 /* AppDelegate.swift */; };
-		BCDDEB7F224A5709005720A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDDEB7E224A5709005720A0 /* ViewController.swift */; };
 		BCDDEB82224A5709005720A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCDDEB80224A5709005720A0 /* Main.storyboard */; };
 		BCDDEB84224A570A005720A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCDDEB83224A570A005720A0 /* Assets.xcassets */; };
 		BCDDEB87224A570A005720A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCDDEB85224A570A005720A0 /* LaunchScreen.storyboard */; };
+		BCDDEB8F224A5EFA005720A0 /* CarsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDDEB8E224A5EFA005720A0 /* CarsTableViewController.swift */; };
+		BCDDEB91224A5F3A005720A0 /* AddEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDDEB90224A5F3A005720A0 /* AddEditViewController.swift */; };
+		BCDDEB93224A5F48005720A0 /* CarsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDDEB92224A5F48005720A0 /* CarsViewController.swift */; };
+		BCDDEB95224A672E005720A0 /* Cars.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDDEB94224A672E005720A0 /* Cars.swift */; };
+		BCDDEB97224A6864005720A0 /* Rest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDDEB96224A6864005720A0 /* Rest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BCDDEB79224A5709005720A0 /* Carangas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carangas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCDDEB7C224A5709005720A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BCDDEB7E224A5709005720A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BCDDEB81224A5709005720A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BCDDEB83224A570A005720A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCDDEB86224A570A005720A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCDDEB88224A570A005720A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCDDEB8E224A5EFA005720A0 /* CarsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsTableViewController.swift; sourceTree = "<group>"; };
+		BCDDEB90224A5F3A005720A0 /* AddEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditViewController.swift; sourceTree = "<group>"; };
+		BCDDEB92224A5F48005720A0 /* CarsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsViewController.swift; sourceTree = "<group>"; };
+		BCDDEB94224A672E005720A0 /* Cars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cars.swift; sourceTree = "<group>"; };
+		BCDDEB96224A6864005720A0 /* Rest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +62,13 @@
 		BCDDEB7B224A5709005720A0 /* Carangas */ = {
 			isa = PBXGroup;
 			children = (
+				BCDDEB8E224A5EFA005720A0 /* CarsTableViewController.swift */,
+				BCDDEB90224A5F3A005720A0 /* AddEditViewController.swift */,
+				BCDDEB92224A5F48005720A0 /* CarsViewController.swift */,
 				BCDDEB7C224A5709005720A0 /* AppDelegate.swift */,
-				BCDDEB7E224A5709005720A0 /* ViewController.swift */,
 				BCDDEB80224A5709005720A0 /* Main.storyboard */,
+				BCDDEB94224A672E005720A0 /* Cars.swift */,
+				BCDDEB96224A6864005720A0 /* Rest.swift */,
 				BCDDEB83224A570A005720A0 /* Assets.xcassets */,
 				BCDDEB85224A570A005720A0 /* LaunchScreen.storyboard */,
 				BCDDEB88224A570A005720A0 /* Info.plist */,
@@ -135,8 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCDDEB7F224A5709005720A0 /* ViewController.swift in Sources */,
+				BCDDEB8F224A5EFA005720A0 /* CarsTableViewController.swift in Sources */,
 				BCDDEB7D224A5709005720A0 /* AppDelegate.swift in Sources */,
+				BCDDEB95224A672E005720A0 /* Cars.swift in Sources */,
+				BCDDEB97224A6864005720A0 /* Rest.swift in Sources */,
+				BCDDEB91224A5F3A005720A0 /* AddEditViewController.swift in Sources */,
+				BCDDEB93224A5F48005720A0 /* CarsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +305,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.carangas.Carangas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -306,7 +322,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.carangas.Carangas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
